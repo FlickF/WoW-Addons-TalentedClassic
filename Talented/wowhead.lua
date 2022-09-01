@@ -2,6 +2,9 @@ local Talented = Talented
 local ipairs = ipairs
 
 local L = LibStub("AceLocale-3.0"):GetLocale("Talented")
+-- local isVanilla = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
+local isTBC     = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC --TODO: This is showing up as the ID for WotLK on the PTR. Update later, if needed.
+
 --https://classic.wowhead.com/talent-calc/rogue/0251030050502--05
 --https://classic.wowhead.com/talent-calc/rogue/0251030050502-32
 --https://classic.wowhead.com/talent-calc/rogue/0251030050502
