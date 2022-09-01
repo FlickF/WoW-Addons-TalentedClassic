@@ -37,8 +37,8 @@ jobs:
           fetch-depth: 0  # gets git history for changelogs
 
       # another example where we supply additional arguments, this example is specifically to release
-      # for the Burning Crusade Classic version of the game and doesn't upload to WoWInterface
+      # for the WotLK Classic version of the game and doesn't upload to WoWInterface
       - name: Package and release for Burning Crusade Classic
         uses: BigWigsMods/packager@v2
         with:
-          args: -g bcc -w 0
+          args: -g wrath -w 0

@@ -1,0 +1,13 @@
+package-as: Talented
+
+move-folders:
+  Talented/Talented: Talented
+  Talented/Talented_Data: Talented_Data
+  Talented/Talented_GlyphFrame: Talented_GlyphFrame
+  Talented/Talented_SpecTabs: Talented_SpecTabs
+
+ignore:
+  - Talented_Data_Export
+  - .github
+  - README.md
+  - "*.txt"
